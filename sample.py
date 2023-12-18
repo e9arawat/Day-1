@@ -1,3 +1,10 @@
+"""Day-1"""
+
+
 def func(n, m):
-    return sum(range(n, m+1))
-print(func(4212, 18912512))
+    """function to find sum"""
+    return sum(range(n, m + 1))
+
+
+if __name__ == "__main__":
+    print(func(4212, 18912512))
